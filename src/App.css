@@ -18,3 +18,35 @@
   height: 100vh;
   background-color: #f9fafe;
 }
+
+.header-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5) url("./cielo.webp");
+  background-color: #12a4fe54;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-container__titles {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+}
+
+.header-container__titles h1 {
+  font-size: 3rem;
+}
+
+.header-container__titles p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 30px 30px;
+}
