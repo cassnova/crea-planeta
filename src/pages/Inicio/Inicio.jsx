@@ -16,6 +16,22 @@ const Inicio = () => {
           </p>
         </div>
       </header>
+      <main className="main-container">
+        <h3>NOSOTROS</h3>
+        <p>
+          CREA Planeta es una alianza entre científicos de la primera estación
+          de biología marina de Sudamérica con un núcleo pionero de realidades
+          inmersivas de la región de Valparaíso.
+        </p>
+        <p>
+          Buscamos contribuir a la conservación de los ecosistemas, entregando
+          experiencias significativas e inmersivas con base científica, que
+          cambien la relación de las personas con el planeta.
+        </p>
+      </main>
+      <section>
+        <h3>TECNOLOGÍAS PARA NUEVOS FUTUROS</h3>
+      </section>
     </div>
   );
 };
