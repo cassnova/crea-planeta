@@ -29,9 +29,20 @@ const Inicio = () => {
           cambien la relación de las personas con el planeta.
         </p>
       </main>
-      <section>
+      <section className="section-container">
         <h3>TECNOLOGÍAS PARA NUEVOS FUTUROS</h3>
       </section>
+      <div className="section-container__p">
+        <p>
+          Utilizamos Realidades Inmersivas (Realidad Virtual, Video 360,
+          Realidad Aumentada, XR) como una poderosa herramienta para transformar
+          la relación de las personas con el planeta en base a narrativas
+          apasionantes, basadas en innovación y ciencia.
+        </p>
+      </div>
+      <div className="container-nuevas-realidades">
+        <p>NUEVAS REALIDADES</p>
+      </div>
     </div>
   );
 };
