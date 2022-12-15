@@ -2,19 +2,41 @@ import React from "react";
 import Nav from "../../components/Navbar2";
 import "./Inicio.css";
 import Footer from "../../components/Footer";
+import { motion as m } from "framer-motion";
 
 const Inicio = () => {
   return (
-    <div>
-      <Nav />
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+    >
+      {/* <Nav /> */}
       <header className="header-container">
         <div className="header-container__titles">
-          <h1>CREA Planeta</h1>
-          <h2>Centro de Realidades Alternativas</h2>
-          <p>
+          <m.h1
+            initial={{ x: -100 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            CREA Planeta
+          </m.h1>
+          <m.h2
+            initial={{ x: -100 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            Centro de Realidades Alternativas
+          </m.h2>
+          <m.p
+            initial={{ x: -100 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.7 }}
+          >
             "Cambiamos la relación de las personas con el planeta con
             experiencias inmersivas, innovadoras y de base científica."
-          </p>
+          </m.p>
         </div>
       </header>
       <main className="main-container">
@@ -44,8 +66,8 @@ const Inicio = () => {
       <div className="container-nuevas-realidades">
         <p>NUEVAS REALIDADES</p>
       </div>
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </m.div>
   );
 };
 
