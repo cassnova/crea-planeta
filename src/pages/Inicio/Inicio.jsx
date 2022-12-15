@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../../components/Navbar2";
 import "./Inicio.css";
+import Footer from "../../components/Footer";
 
 const Inicio = () => {
   return (
@@ -43,6 +44,7 @@ const Inicio = () => {
       <div className="container-nuevas-realidades">
         <p>NUEVAS REALIDADES</p>
       </div>
+      <Footer />
     </div>
   );
 };
