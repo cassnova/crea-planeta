@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route exact path="/" element={<Inicio />} />

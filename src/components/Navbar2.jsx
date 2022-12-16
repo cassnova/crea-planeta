@@ -22,27 +22,27 @@ const Nav = () => {
       <ul className={clicked ? "active" : null}>
         <li>
           <NavLink style={navLinkStyles} to="/">
-            Inicio
+            INICIO
           </NavLink>
         </li>
         <li>
           <NavLink style={navLinkStyles} to="/personas">
-            Personas
+            PERSONAS
           </NavLink>
         </li>
         <li>
           <NavLink style={navLinkStyles} to="/objetivos">
-            Objetivos
+            OBJETIVOS
           </NavLink>
         </li>
         <li>
           <NavLink style={navLinkStyles} to="/portafolio">
-            Portafolio
+            PORTAFOLIO
           </NavLink>
         </li>
         <li>
           <NavLink style={navLinkStyles} to="/contacto">
-            Contacto
+            CONTACTO
           </NavLink>
         </li>
       </ul>

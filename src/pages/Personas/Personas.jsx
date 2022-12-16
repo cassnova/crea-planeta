@@ -1,6 +1,9 @@
 import React from "react";
 import Nav from "../../components/Navbar2";
 import { motion as m } from "framer-motion";
+import "./Personas.css";
+import LogoAlmagico from "../../logo-almagico.webp";
+import LogoUValpo from "../../logo-uvalpo.webp";
 
 const Personas = () => {
   return (
@@ -10,8 +13,201 @@ const Personas = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      {/* <Nav /> */}
-      <h2>Personas</h2>
+      <Nav />
+      <m.h2
+        className="titulo-representantes"
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
+        REPRESENTANTES
+      </m.h2>
+      <hr />
+      <section className="representantes-container">
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div className="">
+              <img src="" alt="Foto Cristobal" />
+            </div>
+            <div>
+              <h3>CRISTÓBAL ALMAGIÁ</h3>
+              <h4>DIRECTOR</h4>
+              <h5>PRODUCTOR EJECUTIVO</h5>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Ingeniero Comercial con estudios en Cinematografía en Centro
+              Sperimentale di Cinematografía (Roma- Italia), y de producción
+              audiovisual en EAVE (Europa); Escuela San Antonio de los Baños
+              (Cuba) entre varios otros. Socio Fundador de Almagico VR, centro
+              inmersivo orientado al desarrollo proyectos VR 360 para promover
+              la sustentabilidad, y la reflexión del vínculo del ser humano con
+              la naturaleza, entregando experiencias que impactan y conmueven a
+              las audiencias.
+            </p>
+          </div>
+          <div className="representante-container-logo">
+            <img src={LogoAlmagico} alt="Logo Almagico VR" />
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Pili" />
+            </div>
+            <div>
+              <h3>PILAR MUÑOZ MUGA</h3>
+              <h4>DIRECTORA CIENTÍFICA</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Bióloga Marina de la Universidad de Valparaíso. Directora del
+              Laboratorio de Algas Marinas, docente de la Escuela de Biología
+              Marina. Editora en Jefe de la Revista de Biología Marina y
+              Oceanografía (indexada en Web of Science). Participa además de
+              varias iniciativas de vinculación con el medio que combinan
+              innovación, creatividad y ciencia, tal como el documental
+              inmersivo Cultura Oceánica en 360°. Es Magister en Oceanografía y
+              es la única chilena perteneciente al Grupo de Expertos sobre
+              Alfabetización Oceánica de la Comisión Oceanográfica
+              Intergubernamental de UNESCO.
+            </p>
+          </div>
+          <div className="representante-container-logo">
+            <img src={LogoUValpo} alt="Logo U. de Valpo" />
+          </div>
+        </div>
+      </section>
+
+      <m.h2
+        className="titulo-representantes"
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
+        ESPECIALIDADES POR PROYECTOS
+      </m.h2>
+      <hr />
+
+      <section className="especialistas">
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Bernardita" />
+            </div>
+            <div>
+              <h3>BERNARDITA SKINNER</h3>
+              <h4>GUIÓN</h4>
+              <h5>PRODUCCIÓN PERIODISTICA</h5>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Periodista, Magíster en Arte mención Patrimonio. Docente de
+              periodismo científico, miembro de la Asociación Chilena de
+              Periodistas Científicos, ACHIPEC y de Asociación Nacional de
+              Escritores de Ciencia de Estados Unidos, NASW. Posee experiencia
+              en televisión, proyectos audiovisuales, medios escritos e
+              investigación en identidad, patrimonio y divulgación científica.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Pedro" />
+            </div>
+            <div>
+              <h3>PEDRO PEÑA</h3>
+              <h4>DIRECCIÓN DE FOTOGRAFÍA 360</h4>
+              <h5>POSTPRODUCCIÓN</h5>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Comunicador audiovisual DuocUC , con estudios de especialización
+              en post-producción. Amplia experiencia en la filmación, edición y
+              post-producción de contenidos audiovisuales inmersivos 360 y
+              ferias y festivales para promover la educación y la sostenibilidad
+              planetaria.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Mauricio" />
+            </div>
+            <div>
+              <h3>MAURICIO LÓPEZ</h3>
+              <h4>DIRECCIÓN REALIDAD VIRTUAL (“104,5° MOLÉCULA DE LA VIDA”)</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Tecnólogo creativo e incansable promotor de las tecnologías
+              inmersivas. Fundador de OsoBorroso, una empresa dedicada al
+              desarrollo de experiencias digitales para cultura, marketing y
+              eventos. Premiado por la Mejor Experiencia Educativa VR (Crystal
+              Owl, Chile-Bélgica), primer lugar por Mejor Filtro AR (QLD XR,
+              Australia), bronce por el Mejor Espacio VR (Mozilla Hubs, EE.UU.),
+              entre otros. Asistente regular de festivales mundiales de AR y VR.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Ksenia" />
+            </div>
+            <div>
+              <h3>KSENIA MARENNIKOVA</h3>
+              <h4>
+                DIRECCIÓN DE REALIDAD AUMENTADA (“104,5° MOLÉCULA DE LA VIDA”)
+              </h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Publicista, productora de experiencias inmersivas comerciales y
+              socia en OsoBorroso. Ha realizado proyectos para EA Sports FIFA 23
+              • Wimbledon Championships • World Rugby • WWF • Nike • Pepsi •
+              Nivea • Budweiser • Red Bull • Monster Energy • Líder (Walmart) •
+              Loncoleche, entre otros. Varios de ellos fueron finalistas y
+              ganadores en concursos de creatividad en cinco continentes.
+              Participante de talleres y festivales de las narrativas XR
+              europeos y latinoamericanos.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div>
+              <img src="" alt="Foto Javiera" />
+            </div>
+            <div>
+              <h3>JAVIERA SAAVEDRA</h3>
+              <h4>PRENSA</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Periodista y Licenciada en Comunicación Social de la Universidad
+              de Playa Ancha . Especializada en prensa radial y periodismo
+              científico. Se desempeña en prensa y medios de comunicación
+              digitales de alcance nacional. Posee estudios en importancia del
+              paisaje sonoro y cuidado del medio ambiente.
+            </p>
+          </div>
+        </div>
+      </section>
     </m.div>
   );
 };

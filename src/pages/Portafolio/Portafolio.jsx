@@ -10,7 +10,7 @@ const Portafolio = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      {/* <Nav /> */}
+      <Nav />
       <h2>Portafolio</h2>
     </m.div>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "../../components/Navbar2";
 import "./Inicio.css";
-import Footer from "../../components/Footer";
 import { motion as m } from "framer-motion";
 
 const Inicio = () => {
@@ -12,27 +11,27 @@ const Inicio = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      {/* <Nav /> */}
+      <Nav />
       <header className="header-container">
         <div className="header-container__titles">
           <m.h1
             initial={{ x: -100 }}
             animate={{ x: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 1.5 }}
           >
             CREA Planeta
           </m.h1>
           <m.h2
             initial={{ x: -100 }}
             animate={{ x: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 1.6 }}
           >
             Centro de Realidades Alternativas
           </m.h2>
           <m.p
             initial={{ x: -100 }}
             animate={{ x: 0 }}
-            transition={{ duration: 0.7 }}
+            transition={{ duration: 1.7 }}
           >
             "Cambiamos la relación de las personas con el planeta con
             experiencias inmersivas, innovadoras y de base científica."
