@@ -6,7 +6,6 @@ import Portafolio from "./pages/Portafolio/Portafolio";
 import Contacto from "./pages/Contacto/Contacto";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Nav from "./components/Navbar2";
 import Footer from "./components/Footer";
 
 function App() {

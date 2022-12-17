@@ -1,0 +1,30 @@
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 50px 0px;
+}
+hr {
+  margin-bottom: 20px;
+}
+.container-contacto {
+  padding-left: 30px;
+}
+
+.container-contacto__card {
+  padding: 20px 30px;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.container-contacto__card,
+h3,
+h4,
+h5,
+p {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.container-contacto__card img {
+  width: 150px;
+}
