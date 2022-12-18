@@ -64,3 +64,29 @@
 hr {
   margin-bottom: 20px;
 }
+
+/*     TABLET MEDIA QUERIES          */
+
+@media (min-width: 768px) {
+  .representante-1 {
+    margin: 100px 0px;
+  }
+  .representante-container-img-title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+  }
+}
+
+/*         PC MEDIA QUERIES                    */
+
+@media (min-width: 1280px) {
+  .representante-1 {
+    width: 800px;
+    margin: auto;
+    padding: 90px 0px;
+  }
+}
