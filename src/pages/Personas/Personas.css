@@ -6,12 +6,44 @@
 .representante-1 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .representante-container-img-title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  /* gap: 10px; */
   margin: 20px 20px;
+}
+
+.representante-container-img-title__img {
+  width: 30%;
+}
+
+.representante-container-img-title__img img {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.representante-container-img-title__txt {
+  width: 50%;
+}
+.representante-container-img-title__txt h3 {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 0;
+}
+
+.representante-container-img-title__txt h4 {
+  font-size: 15px;
+  padding: 0;
+}
+.representante-container-img-title__txt h5 {
+  font-size: 15px;
+  padding: 0;
 }
 
 .representante-container-desc {

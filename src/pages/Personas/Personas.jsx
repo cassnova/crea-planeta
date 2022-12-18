@@ -4,6 +4,9 @@ import { motion as m } from "framer-motion";
 import "./Personas.css";
 import LogoAlmagico from "../../logo-almagico.webp";
 import LogoUValpo from "../../logo-uvalpo.webp";
+import Ksenia from "../../ksenia.webp";
+import Javiera from "../../javi-saavedra.webp";
+import Mauricio from "../../mauricio.webp";
 
 const Personas = () => {
   return (
@@ -26,10 +29,10 @@ const Personas = () => {
       <section className="representantes-container">
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div className="">
+            <div className="representante-container-img-title__img">
               <img src="" alt="Foto Cristobal" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>CRISTÓBAL ALMAGIÁ</h3>
               <h4>DIRECTOR</h4>
               <h5>PRODUCTOR EJECUTIVO</h5>
@@ -54,10 +57,10 @@ const Personas = () => {
 
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
+            <div className="representante-container-img-title__img">
               <img src="" alt="Foto Pili" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>PILAR MUÑOZ MUGA</h3>
               <h4>DIRECTORA CIENTÍFICA</h4>
             </div>
@@ -95,10 +98,10 @@ const Personas = () => {
       <section className="especialistas">
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
+            <div className="representante-container-img-title__img">
               <img src="" alt="Foto Bernardita" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>BERNARDITA SKINNER</h3>
               <h4>GUIÓN</h4>
               <h5>PRODUCCIÓN PERIODISTICA</h5>
@@ -118,10 +121,10 @@ const Personas = () => {
 
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
+            <div className="representante-container-img-title__img">
               <img src="" alt="Foto Pedro" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>PEDRO PEÑA</h3>
               <h4>DIRECCIÓN DE FOTOGRAFÍA 360</h4>
               <h5>POSTPRODUCCIÓN</h5>
@@ -140,10 +143,10 @@ const Personas = () => {
 
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
-              <img src="" alt="Foto Mauricio" />
+            <div className="representante-container-img-title__img">
+              <img src={Mauricio} alt="Foto Mauricio" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>MAURICIO LÓPEZ</h3>
               <h4>DIRECCIÓN REALIDAD VIRTUAL (“104,5° MOLÉCULA DE LA VIDA”)</h4>
             </div>
@@ -163,10 +166,10 @@ const Personas = () => {
 
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
-              <img src="" alt="Foto Ksenia" />
+            <div className="representante-container-img-title__img">
+              <img src={Ksenia} alt="Foto Ksenia" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>KSENIA MARENNIKOVA</h3>
               <h4>
                 DIRECCIÓN DE REALIDAD AUMENTADA (“104,5° MOLÉCULA DE LA VIDA”)
@@ -189,10 +192,10 @@ const Personas = () => {
 
         <div className="representante-1">
           <div className="representante-container-img-title">
-            <div>
-              <img src="" alt="Foto Javiera" />
+            <div className="representante-container-img-title__img">
+              <img src={Javiera} alt="Foto Javiera" />
             </div>
-            <div>
+            <div className="representante-container-img-title__txt">
               <h3>JAVIERA SAAVEDRA</h3>
               <h4>PRENSA</h4>
             </div>
