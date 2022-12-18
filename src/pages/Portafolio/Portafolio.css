@@ -43,3 +43,21 @@
   color: var(--white);
   padding-left: 50px;
 }
+
+/*         PC MEDIA QUERIES                    */
+
+@media (min-width: 1280px) {
+  .explora-container {
+    width: 50%;
+    margin: auto;
+  }
+  .molecula-container h2 {
+    padding-left: 150px;
+    font-size: 4rem;
+  }
+
+  .molecula-container h3 {
+    padding-left: 150px;
+    font-size: 3rem;
+  }
+}
