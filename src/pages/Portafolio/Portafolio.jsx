@@ -12,7 +12,13 @@ const Portafolio = () => {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <Nav />
-      <h2>PORTAFOLIO</h2>
+      <m.h2
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+      >
+        PORTAFOLIO
+      </m.h2>
       <hr />
       <section>
         <div className="explora-container">

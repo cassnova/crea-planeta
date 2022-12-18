@@ -30,11 +30,11 @@ const Nav = () => {
             PERSONAS
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink style={navLinkStyles} to="/objetivos">
             OBJETIVOS
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink style={navLinkStyles} to="/portafolio">
             PORTAFOLIO
