@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar2.css";
-import Logo from "../logo-prueba.svg";
+import Logo from "../logo-crea-planeta.png";
 
 const Nav = () => {
   const [clicked, setClicked] = useState(false);
