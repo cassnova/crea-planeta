@@ -17,7 +17,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route exact path="/" element={<Inicio />} />
           <Route exact path="/objetivos" element={<Objetivos />} />
-          <Route exact path="/personas" element={<Personas />} />
+          <Route exact path="/equipo" element={<Personas />} />
           <Route exact path="/portafolio" element={<Portafolio />} />
           <Route exact path="/contacto" element={<Contacto />} />
         </Routes>

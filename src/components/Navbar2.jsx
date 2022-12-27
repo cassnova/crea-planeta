@@ -26,8 +26,8 @@ const Nav = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink style={navLinkStyles} to="/personas">
-            PERSONAS
+          <NavLink style={navLinkStyles} to="/equipo">
+            EQUIPO
           </NavLink>
         </li>
         {/* <li>
