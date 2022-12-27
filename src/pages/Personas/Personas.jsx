@@ -7,6 +7,10 @@ import LogoUValpo from "../../logo-uvalpo.webp";
 import Ksenia from "../../ksenia.webp";
 import Javiera from "../../javi-saavedra.webp";
 import Mauricio from "../../mauricio.webp";
+import Cristobal from "../../cristobal.webp";
+import Pilar from "../../pilar.webp";
+import Bernardita from "../../bernardita.webp";
+import Pedro from "../../pedro.webp";
 
 const Personas = () => {
   return (
@@ -30,7 +34,7 @@ const Personas = () => {
         <div className="representante-1">
           <div className="representante-container-img-title">
             <div className="representante-container-img-title__img">
-              <img src="" alt="Foto Cristobal" />
+              <img src={Cristobal} alt="Foto Cristobal" />
             </div>
             <div className="representante-container-img-title__txt">
               <h3>CRISTÓBAL ALMAGIÁ</h3>
@@ -58,7 +62,7 @@ const Personas = () => {
         <div className="representante-1">
           <div className="representante-container-img-title">
             <div className="representante-container-img-title__img">
-              <img src="" alt="Foto Pili" />
+              <img src={Pilar} alt="Foto Pili" />
             </div>
             <div className="representante-container-img-title__txt">
               <h3>PILAR MUÑOZ MUGA</h3>
@@ -99,7 +103,7 @@ const Personas = () => {
         <div className="representante-1">
           <div className="representante-container-img-title">
             <div className="representante-container-img-title__img">
-              <img src="" alt="Foto Bernardita" />
+              <img src={Bernardita} alt="Foto Bernardita" />
             </div>
             <div className="representante-container-img-title__txt">
               <h3>BERNARDITA SKINNER</h3>
@@ -122,7 +126,7 @@ const Personas = () => {
         <div className="representante-1">
           <div className="representante-container-img-title">
             <div className="representante-container-img-title__img">
-              <img src="" alt="Foto Pedro" />
+              <img src={Pedro} alt="Foto Pedro" />
             </div>
             <div className="representante-container-img-title__txt">
               <h3>PEDRO PEÑA</h3>
