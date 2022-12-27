@@ -63,7 +63,7 @@ const Inicio = () => {
         </p>
       </div>
       <div className="container-nuevas-realidades">
-        <p>NUEVAS REALIDADES</p>
+        <p>Transformamos información en experiencias</p>
       </div>
       {/* <Footer /> */}
     </m.div>
