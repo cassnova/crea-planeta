@@ -2,8 +2,7 @@ import React from "react";
 import Nav from "../../components/Navbar2";
 import "./Contacto.css";
 import { motion as m } from "framer-motion";
-import LogoAlmagico from "../../logo-almagico.webp";
-import LogoUValpo from "../../logo-uvalpo.webp";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 const Contacto = () => {
   return (
@@ -24,20 +23,21 @@ const Contacto = () => {
       <hr />
       <section className="container-contacto">
         <div className="container-contacto__card">
-          <h3>CRISTOBAL ALMAGIA</h3>
-          <h4>CALMAGIA@GMAIL.COM</h4>
-          <h5>+569 79872489</h5>
-          <p>@ALMAGICOVR</p>
-          <img src={LogoAlmagico} alt="Logo Almagico VR" />
+          <h3>¡CONVERSEMOS!</h3>
+          <p>contacto.crea.planeta@gmail.com</p>
+          <h4>VISITA NUESTRO INSTAGRAM</h4>
+          <a href="https://www.instagram.com/crea.planeta/" target="__blank">
+            <AiOutlineInstagram className="logo-insta" />
+          </a>
         </div>
 
-        <div className="container-contacto__card">
+        {/* <div className="container-contacto__card">
           <h3>PILAR MUÑOZ</h3>
           <h4>PILAR.MUÑOZ@UV.CL</h4>
           <h5>+569 94449452</h5>
           <p>@FACIMARUV</p>
           <img src={LogoUValpo} alt="Logo Almagico VR" />
-        </div>
+        </div> */}
       </section>
     </m.div>
   );

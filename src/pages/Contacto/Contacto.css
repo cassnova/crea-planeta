@@ -7,26 +7,47 @@ hr {
   margin-bottom: 20px;
 }
 .container-contacto {
-  padding-left: 30px;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding-left: 30px; */
 }
 
 .container-contacto__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px 30px;
   font-size: 18px;
   text-align: justify;
-  margin-bottom: 20px;
 }
 
-.container-contacto__card,
-h3,
-h4,
-h5,
-p {
-  font-size: 20px;
+.container-contacto__card h3 {
+  font-size: 40px;
   padding: 10px 0px;
 }
-.container-contacto__card img {
-  width: 150px;
+.container-contacto__card p {
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.container-contacto__card h4 {
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.logo-insta {
+  height: 80px;
+  width: 80px;
+  color: black;
+  transition: 0.5s ease-in-out;
+  margin-top: 50px;
+}
+.logo-insta:hover {
+  color: var(--primary);
 }
 
 /*     TABLET MEDIA QUERIES          */
