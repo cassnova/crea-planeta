@@ -23,11 +23,27 @@
 .header-container__titles h1 {
   font-size: 3rem;
 }
-
+.header-container__titles h2 {
+  padding: 10px;
+}
 .header-container__titles p {
   font-size: 20px;
   text-align: justify;
-  padding: 30px 30px;
+  padding: 10px 30px;
+}
+.btn-header {
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--white);
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+.btn-header:hover {
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 .main-container {

@@ -4,6 +4,13 @@ import "./Inicio.css";
 import { motion as m } from "framer-motion";
 
 const Inicio = () => {
+  function Scroll() {
+    const section2 = document.querySelector("#nosotros");
+    section2.scrollIntoView({ behavior: "smooth" });
+  }
+
+  // scrollBehavior.polyfill();
+
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -36,9 +43,12 @@ const Inicio = () => {
             "Cambiamos la relación de las personas con el planeta con
             experiencias inmersivas, innovadoras y de base científica."
           </m.p>
+          <button className="btn-header" onClick={Scroll}>
+            Sobre Nosotros
+          </button>
         </div>
       </header>
-      <main className="main-container">
+      <main className="main-container" id="nosotros">
         <h3>NOSOTROS</h3>
         <p>
           CREA Planeta es una alianza entre científicos de la primera estación
