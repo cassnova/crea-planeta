@@ -2,4 +2,50 @@
   text-align: center;
   padding: 40px 0;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-container__insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.footer-container__insta p {
+  font-size: 16px;
+}
+.logo-insta-footer {
+  height: 35px;
+  width: 35px;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.logo-insta-footer:hover {
+  color: var(--primary);
+}
+
+.url-agencia-drc {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+@media (min-width: 1280px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .footer-container__insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
 }
