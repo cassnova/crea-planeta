@@ -1,3 +1,8 @@
+.portafolio-p {
+  text-align: justify;
+  padding: 0px 30px;
+  font-size: 18px;
+}
 .explora-container {
   display: flex;
   width: 100%;
@@ -47,6 +52,12 @@
 /*         PC MEDIA QUERIES                    */
 
 @media (min-width: 1280px) {
+  .portafolio-p {
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+  }
   .explora-container {
     width: 50%;
     margin: auto;

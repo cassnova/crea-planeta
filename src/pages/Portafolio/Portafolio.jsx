@@ -19,6 +19,16 @@ const Portafolio = () => {
       >
         PORTAFOLIO
       </m.h2>
+      <m.p
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+        className="portafolio-p"
+      >
+        Tenemos un fascinante portafolio de proyectos realizados y en
+        producción, que nos abren nuevas dimensiones sobre el planeta, nuestra
+        biodiversidad y recursos naturales.
+      </m.p>
       <hr />
       <section>
         <div className="explora-container">
