@@ -8,9 +8,37 @@ function ContactForm() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
+
+  const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xqs7ha4",
+        "template_ah4k7bc",
+        form.current,
+        "3x9hRPxHXn1b864Su"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSuccessMessage("Mensaje enviado con éxito");
+          setTimeout(() => {
+            setSuccessMessage("");
+            setName("");
+            setEmail("");
+            setPhone("");
+            setMessage("");
+          }, 3000);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     const formErrors = {};
 
     if (!name) {
@@ -25,8 +53,8 @@ function ContactForm() {
 
     if (!phone) {
       formErrors.phone = "El teléfono es requerido";
-    } else if (phone.length !== 10) {
-      formErrors.phone = "El teléfono debe tener 10 dígitos";
+    } else if (phone.length !== 9) {
+      formErrors.phone = "El teléfono debe tener 9 dígitos";
     }
 
     if (!message) {
@@ -41,11 +69,12 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form ref={form} onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Nombre</label>
         <input
           type="text"
+          name="user_name"
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -57,6 +86,7 @@ function ContactForm() {
         <input
           type="email"
           id="email"
+          name="user_email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -66,6 +96,7 @@ function ContactForm() {
         <label htmlFor="phone">Teléfono</label>
         <input
           type="tel"
+          name="user_phone"
           id="phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
@@ -75,13 +106,17 @@ function ContactForm() {
       <div>
         <label htmlFor="message">Mensaje</label>
         <textarea
+          name="message"
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
         {errors.message && <span className="error">{errors.message}</span>}
       </div>
-      <button type="submit">Enviar</button>
+      <button type="submit" value="Send">
+        Enviar
+      </button>
+      <div>{successMessage && <p>{successMessage}</p>}</div>
     </form>
   );
 }
