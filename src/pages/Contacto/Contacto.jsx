@@ -29,15 +29,12 @@ const Contacto = () => {
           <a href="https://www.instagram.com/crea.planeta/" target="__blank">
             <AiOutlineInstagram className="logo-insta" />
           </a>
+          <div className="numeros-container">
+            <h4>ESCRÍBENOS</h4>
+            <p>+569 79872489 </p>
+            <p>+569 94449452 </p>
+          </div>
         </div>
-
-        {/* <div className="container-contacto__card">
-          <h3>PILAR MUÑOZ</h3>
-          <h4>PILAR.MUÑOZ@UV.CL</h4>
-          <h5>+569 94449452</h5>
-          <p>@FACIMARUV</p>
-          <img src={LogoUValpo} alt="Logo Almagico VR" />
-        </div> */}
       </section>
     </m.div>
   );

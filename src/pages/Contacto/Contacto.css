@@ -8,13 +8,10 @@ hr {
 }
 .container-contacto {
   width: 100%;
-  height: 60vh;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  /* justify-content: center; */
   align-items: center;
-  /* padding-left: 30px; */
 }
 
 .container-contacto__card {
@@ -30,6 +27,7 @@ hr {
 .container-contacto__card h3 {
   font-size: 40px;
   padding: 10px 0px;
+  color: var(--primary);
 }
 .container-contacto__card p {
   font-size: 25px;
@@ -48,6 +46,13 @@ hr {
 }
 .logo-insta:hover {
   color: var(--primary);
+}
+
+.numeros-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
 /*     TABLET MEDIA QUERIES          */
