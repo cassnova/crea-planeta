@@ -15,30 +15,6 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_xqs7ha4",
-        "template_ah4k7bc",
-        form.current,
-        "3x9hRPxHXn1b864Su"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setSuccessMessage("Mensaje enviado con éxito");
-          setTimeout(() => {
-            setSuccessMessage("");
-            setName("");
-            setEmail("");
-            setPhone("");
-            setMessage("");
-          }, 3000);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
     const formErrors = {};
 
     if (!name) {
@@ -64,7 +40,28 @@ function ContactForm() {
     setErrors(formErrors);
 
     if (Object.keys(formErrors).length === 0) {
-      // Enviar formulario a través de un servicio de terceros aquí
+      emailjs
+        .sendForm(
+          "service_xqs7ha4",
+          "template_ah4k7bc",
+          form.current,
+          "3x9hRPxHXn1b864Su"
+        )
+        .then(
+          (result) => {
+            setSuccessMessage("Mensaje enviado con éxito");
+            setTimeout(() => {
+              setSuccessMessage("");
+              setName("");
+              setEmail("");
+              setPhone("");
+              setMessage("");
+            }, 3000);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
     }
   };
 
