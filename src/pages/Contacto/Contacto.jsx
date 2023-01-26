@@ -25,6 +25,7 @@ const Contacto = () => {
       <section className="container-contacto">
         <div className="container-contacto__card">
           <h3>¡CONVERSEMOS!</h3>
+          <ContactForm />
           <p>contacto.crea.planeta@gmail.com</p>
           <h4>VISITA NUESTRO INSTAGRAM</h4>
           <a href="https://www.instagram.com/crea.planeta/" target="__blank">
@@ -37,7 +38,6 @@ const Contacto = () => {
           </div>
         </div>
       </section>
-      <ContactForm />
     </m.div>
   );
 };

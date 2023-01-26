@@ -29,7 +29,7 @@ function ContactForm() {
 
     if (!phone) {
       formErrors.phone = "El teléfono es requerido";
-    } else if (phone.length !== 9) {
+    } else if (phone.length < 9) {
       formErrors.phone = "El teléfono debe tener 9 dígitos";
     }
 
@@ -67,7 +67,7 @@ function ContactForm() {
 
   return (
     <form ref={form} onSubmit={handleSubmit}>
-      <div>
+      <div className="inputs-containers">
         <label htmlFor="name">Nombre</label>
         <input
           type="text"
@@ -76,9 +76,10 @@ function ContactForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+
         {errors.name && <span className="error">{errors.name}</span>}
       </div>
-      <div>
+      <div className="inputs-containers">
         <label htmlFor="email">Email</label>
         <input
           type="email"
@@ -89,7 +90,7 @@ function ContactForm() {
         />
         {errors.email && <span className="error">{errors.email}</span>}
       </div>
-      <div>
+      <div className="inputs-containers">
         <label htmlFor="phone">Teléfono</label>
         <input
           type="tel"
@@ -100,20 +101,21 @@ function ContactForm() {
         />
         {errors.phone && <span className="error">{errors.phone}</span>}
       </div>
-      <div>
+      <div className="textarea-container">
         <label htmlFor="message">Mensaje</label>
         <textarea
           name="message"
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          className="textarea-msg"
         />
         {errors.message && <span className="error">{errors.message}</span>}
-      </div> 
+      </div>
       <button className="btn-form" type="submit" value="Send">
         Enviar
       </button>
-      <div>{successMessage && <p>{successMessage}</p>}</div>
+      {successMessage && <p className="success-msg">{successMessage}</p>}
     </form>
   );
 }
