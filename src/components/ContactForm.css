@@ -12,8 +12,7 @@ form {
 
 label,
 input,
-textarea,
-button {
+textarea {
   margin: 10px;
   padding: 10px;
   font-size: 16px;
@@ -30,11 +29,15 @@ textarea {
   width: 100%;
 }
 
-button {
-  background-color: #4caf50;
+.btn-form {
+  background-color: var(--primary);
   color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
   border: none;
-  width: 100%;
+  width: 150px;
+  border-radius: 20px;
   cursor: pointer;
 }
 

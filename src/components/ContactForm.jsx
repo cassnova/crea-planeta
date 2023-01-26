@@ -109,8 +109,8 @@ function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
         />
         {errors.message && <span className="error">{errors.message}</span>}
-      </div>
-      <button type="submit" value="Send">
+      </div> 
+      <button className="btn-form" type="submit" value="Send">
         Enviar
       </button>
       <div>{successMessage && <p>{successMessage}</p>}</div>
