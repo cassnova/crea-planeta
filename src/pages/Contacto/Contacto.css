@@ -185,6 +185,7 @@ hr {
   .container-contacto__card p {
     font-size: 25px;
     padding: 20px 0px;
+    width: 720px;
   }
   .container-contacto__card h4 {
     font-size: 25px;
