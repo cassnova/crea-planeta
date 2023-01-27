@@ -12,6 +12,7 @@ const Contacto = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
+      
     >
       <Nav />
       <m.h2
@@ -26,7 +27,10 @@ const Contacto = () => {
         <div className="container-contacto__card">
           <h3>¡CONVERSEMOS!</h3>
           <ContactForm />
-          <p>contacto.crea.planeta@gmail.com</p>
+          <div className="correo-container">
+            <h4>ESCRÍBENOS A NUESTRO CORREO</h4>
+            <p>contacto.crea.planeta@gmail.com</p>
+          </div>
           <h4>VISITA NUESTRO INSTAGRAM</h4>
           <a href="https://www.instagram.com/crea.planeta/" target="__blank">
             <AiOutlineInstagram className="logo-insta" />
