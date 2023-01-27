@@ -3,7 +3,7 @@ import Nav from "../../components/Navbar2";
 import ContactForm from "../../components/ContactForm";
 import "./Contacto.css";
 import { motion as m } from "framer-motion";
-import { AiOutlineInstagram } from "react-icons/ai";
+// import { AiOutlineInstagram } from "react-icons/ai";
 
 const Contacto = () => {
   return (
