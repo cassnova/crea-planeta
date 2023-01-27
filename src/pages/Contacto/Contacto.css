@@ -1,7 +1,7 @@
 h2 {
   text-align: center;
-  font-size: 2.5rem;
-  padding: 50px 0px;
+  font-size: 2rem;
+  padding: 20px 0px;
 }
 hr {
   margin-bottom: 20px;
@@ -14,7 +14,7 @@ hr {
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 10px;
   align-items: center;
 }
 
