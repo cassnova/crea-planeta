@@ -53,7 +53,7 @@ const Portafolio = () => {
           <p className="portafolio-infos">
             <strong>Resumen:</strong> : Miniserie inmersiva de 7 principios de
             UNESCO sobre la Cultura Oceánica. Un viaje a través del corazón del
-            pacífico para entender la relación que nos ejercemos mutuamente
+            Pacífico para entender la relación que nos ejercemos mutuamente
             entre humanos y el océano. Posee el apoyo oficial de UNESCO y es
             parte de las actividades de las Naciones Unidas para la década del
             océano 2020-2030.
@@ -76,8 +76,8 @@ const Portafolio = () => {
             te convertirá en la molécula de la vida, el agua. Desde allí
             viajarás a través de glaciares, humedales, bosques de algas marinas
             y conocerás como el agua vive e interactúa dentro de la naturaleza y
-            de ti mismo, y porque es esencial para la vida y para nuevas fuentes
-            de energías.
+            de ti mismo, y por qué es esencial para la vida y para nuevas
+            fuentes de energías.
           </p>
           <p className="portafolio-infos">
             <strong>Formato:</strong> Interactivo, Realidad Virtual, Video 360.
@@ -85,7 +85,7 @@ const Portafolio = () => {
         </div>
         <hr className="linea-separacion" />
         <div className="luca-container">
-          <h2>L.U.C.A</h2>
+          <h2>L.U.C.A.</h2>
         </div>
         <div>
           <p className="portafolio-infos">
@@ -113,7 +113,7 @@ const Portafolio = () => {
           <p className="portafolio-infos">
             <strong>Resumen:</strong> Acompañamos a Mery Perla, artista e
             instructora de buceo submarino, a través de naufragios que descansan
-            en las costas del pacífico, mientras escuchamos la voz en off de un
+            en las costas del Pacífico, mientras escuchamos la voz en off de un
             curador e historiador marítimo. Los naufragios ampliarán nuestra
             mirada sobre estos artefactos como arquitectura submarina que
             también actúan como verdaderos arrecifes naturales que permiten
