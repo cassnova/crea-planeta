@@ -41,6 +41,11 @@ const Nav = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink style={navLinkStyles} to="/trayectoria">
+            TRAYECTORIA
+          </NavLink>
+        </li>
+        <li>
           <NavLink style={navLinkStyles} to="/contacto">
             CONTACTO
           </NavLink>
