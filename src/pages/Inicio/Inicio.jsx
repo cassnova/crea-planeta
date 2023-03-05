@@ -55,7 +55,7 @@ const Inicio = () => {
           de biología marina de Sudamérica con un núcleo pionero de realidades
           inmersivas de la región de Valparaíso.
         </p>
-        <p>
+        <p className="main-container_ultimo-p">
           Buscamos contribuir a la conservación de los ecosistemas, entregando
           experiencias significativas e inmersivas con base científica, que
           cambien la relación de las personas con el planeta.
@@ -76,6 +76,17 @@ const Inicio = () => {
         <p>Transformamos información en experiencias</p>
       </div>
       {/* <Footer /> */}
+      <div className="numeros-container">
+            <h4>CONTACTOS</h4>
+            <div>
+              <p>Cristóbal Almagiá</p>
+              <p>+569 79872489 </p>
+            </div>
+            <div>
+              <p>Pilar Muñoz Muga</p>
+              <p>+569 94449452 </p>
+            </div>
+          </div>
     </m.div>
   );
 };

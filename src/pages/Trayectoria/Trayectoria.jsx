@@ -10,6 +10,7 @@ const Trayectoria = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
+      className="trayectoria-container"
     >
       <Nav />
 
@@ -24,7 +25,7 @@ const Trayectoria = () => {
 
       <hr />
 
-      <h3>
+      <p className="contenido-trayectoria">
         Nuestra misión es promover un mayor conocimiento de nuestros ecosistemas
         con experiencias inmersivas en encuentros locales, nacionales e
         internacionales. Hemos participado en foros y exhibiciones en Sundance
@@ -34,7 +35,19 @@ const Trayectoria = () => {
         encuentros con estudiantes, entre muchos otros. Contamos con el apoyo
         oficial de UNESCO y hemos sido reconocidos como una actividad ONU
         Decenio 2030 de los Océanos con nuestra serie Cultura Oceánica en 360°.
-      </h3>
+      </p>
+
+      <div className="numeros-container">
+        <h4>CONTACTOS</h4>
+        <div>
+          <p>Cristóbal Almagiá</p>
+          <p>+569 79872489 </p>
+        </div>
+        <div>
+          <p>Pilar Muñoz Muga</p>
+          <p>+569 94449452 </p>
+        </div>
+      </div>
     </m.div>
   );
 };

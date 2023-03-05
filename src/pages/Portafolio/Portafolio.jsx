@@ -123,6 +123,17 @@ const Portafolio = () => {
             <strong>Formato:</strong> Multiplataforma, video 360, interactivo.
           </p>
         </div>
+        <div className="numeros-container">
+            <h4>CONTACTOS</h4>
+            <div>
+              <p>Cristóbal Almagiá</p>
+              <p>+569 79872489 </p>
+            </div>
+            <div>
+              <p>Pilar Muñoz Muga</p>
+              <p>+569 94449452 </p>
+            </div>
+          </div>
         <hr className="linea-separacion" />
       </section>
     </m.div>

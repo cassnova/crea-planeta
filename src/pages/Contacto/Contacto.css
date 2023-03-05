@@ -70,6 +70,13 @@ hr {
   text-align: center;
 }
 
+.numeros-container p {
+  padding: 0;
+}
+.numeros-container div {
+  margin: 10px 0px;
+}
+
 /*     TABLET MEDIA QUERIES          */
 
 @media (min-width: 768px) {
@@ -207,6 +214,9 @@ hr {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+  }
+  .numeros-container div {
+    text-align: center;
   }
 
   .correo-container {

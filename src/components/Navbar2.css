@@ -55,10 +55,12 @@
   .nav-container {
     padding: 20px 200px;
     position: sticky;
+    width: 100%;
   }
   .nav-container ul {
     display: flex;
     flex-direction: row;
+    margin-right: 50px;
     position: absolute;
     top: 0px;
     right: 0px;

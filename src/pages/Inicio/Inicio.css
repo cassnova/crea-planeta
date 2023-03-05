@@ -171,11 +171,11 @@
   }
 
   .section-container__p {
-    margin: 50px 0px;
+    margin: 20px 0px;
   }
   .section-container__p p {
     font-size: 30px;
-    padding: 200px 250px;
+    padding: 100px 250px;
   }
 
   .container-nuevas-realidades {
@@ -185,5 +185,8 @@
   .container-nuevas-realidades p {
     font-size: 4rem;
     padding-left: 50px;
+  }
+  .main-container_ultimo-p{
+    margin-bottom: 50px;
   }
 }
