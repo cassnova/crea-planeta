@@ -138,7 +138,7 @@ const Personas = () => {
             <p>
               Comunicador audiovisual DuocUC , con estudios de especialización
               en post-producción. Amplia experiencia en la filmación, edición y
-              post-producción de contenidos audiovisuales inmersivos 360 y
+              post-producción de contenidos audiovisuales inmersivos 360, y
               ferias y festivales para promover la educación y la sostenibilidad
               planetaria.
             </p>

@@ -148,10 +148,14 @@
 /*         PC MEDIA QUERIES                    */
 
 @media (min-width: 1280px) {
+  .header-container__titles p {
+    width: 620px;
+  }
   .main-container {
     height: 70vh;
   }
   .main-container h3 {
+    margin-top: 100px;
     font-size: 4rem;
     text-align: center;
     padding: 30px 0px;
@@ -186,7 +190,7 @@
     font-size: 4rem;
     padding-left: 50px;
   }
-  .main-container_ultimo-p{
+  .main-container_ultimo-p {
     margin-bottom: 50px;
   }
 }

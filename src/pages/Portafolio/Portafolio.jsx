@@ -44,7 +44,7 @@ const Portafolio = () => {
           </div>
         </div> */}
         <div className="oceanica-container">
-          <h2>CULTURA OCEÁNICA</h2>
+          <h2>CULTURA OCEÁNICA EN 360°</h2>
         </div>
         <div>
           <p className="portafolio-infos">
@@ -124,16 +124,16 @@ const Portafolio = () => {
           </p>
         </div>
         <div className="numeros-container">
-            <h4>CONTACTOS</h4>
-            <div>
-              <p>Cristóbal Almagiá</p>
-              <p>+569 79872489 </p>
-            </div>
-            <div>
-              <p>Pilar Muñoz Muga</p>
-              <p>+569 94449452 </p>
-            </div>
+          <h4>CONTACTOS</h4>
+          <div>
+            <p>Cristóbal Almagiá</p>
+            <p>+569 79872489 </p>
           </div>
+          <div>
+            <p>Pilar Muñoz Muga</p>
+            <p>+569 94449452 </p>
+          </div>
+        </div>
         <hr className="linea-separacion" />
       </section>
     </m.div>

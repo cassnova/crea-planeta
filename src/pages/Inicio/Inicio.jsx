@@ -40,7 +40,7 @@ const Inicio = () => {
             animate={{ x: 0 }}
             transition={{ duration: 1.7 }}
           >
-            "Cambiamos la relación de las personas con el planeta con
+            "Cambiamos la relación de las personas con el planeta mediante
             experiencias inmersivas, innovadoras y de base científica."
           </m.p>
           <button className="btn-header" onClick={Scroll}>
@@ -77,16 +77,16 @@ const Inicio = () => {
       </div>
       {/* <Footer /> */}
       <div className="numeros-container">
-            <h4>CONTACTOS</h4>
-            <div>
-              <p>Cristóbal Almagiá</p>
-              <p>+569 79872489 </p>
-            </div>
-            <div>
-              <p>Pilar Muñoz Muga</p>
-              <p>+569 94449452 </p>
-            </div>
-          </div>
+        <h4>CONTACTOS</h4>
+        <div>
+          <p>Cristóbal Almagiá</p>
+          <p>+569 79872489 </p>
+        </div>
+        <div>
+          <p>Pilar Muñoz Muga</p>
+          <p>+569 94449452 </p>
+        </div>
+      </div>
     </m.div>
   );
 };
