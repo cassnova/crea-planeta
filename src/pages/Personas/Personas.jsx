@@ -11,6 +11,10 @@ import Cristobal from "../../cristobal.webp";
 import Pilar from "../../pilar.webp";
 import Bernardita from "../../bernardita.webp";
 import Pedro from "../../pedro.webp";
+import Daniel from "../../daniel-rojas.webp";
+import Jetzabel from "../../jetzabel-moreno.webp";
+import Marcia from "../../marcia-tomassoni.webp";
+import Paulina from "../../paulina-larrondo.webp";
 
 const Personas = () => {
   return (
@@ -214,18 +218,105 @@ const Personas = () => {
             </p>
           </div>
         </div>
-        <hr />
-        <div className="numeros-container">
-            <h4>CONTACTOS</h4>
-            <div>
-              <p>Cristóbal Almagiá</p>
-              <p>+569 79872489 </p>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div className="representante-container-img-title__img">
+              <img src={Paulina} alt="Foto Javiera" />
             </div>
-            <div>
-              <p>Pilar Muñoz Muga</p>
-              <p>+569 94449452 </p>
+            <div className="representante-container-img-title__txt">
+              <h3>PAULINA LARRONDO</h3>
+              <h4>RELACIONAMIENTO COMUNITARIO</h4>
             </div>
           </div>
+          <div className="representante-container-desc">
+            <p>
+              Psicóloga y académica con mas de 15 años de experiencia impulsando
+              procesos de transformación en personas, comunidades y
+              organizaciones en temáticas de genero y medioambiente. Directora
+              del proyecto 'Hierbas de Mar' de la Facultad de Medicina de la
+              Universidad de Chile, para poner en valor el oficio alguero y a
+              este superalimento.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div className="representante-container-img-title__img">
+              <img src={Marcia} alt="Foto Javiera" />
+            </div>
+            <div className="representante-container-img-title__txt">
+              <h3>MARCIA TOMASSONI</h3>
+              <h4>COORDINACIÓN</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Licenciada en Biologia Marina. Con experiencia en Investigación y
+              apoyo en proyectos de Pesca y Acuicultura. Analista de Medio
+              Ambiente en consultoria medioambiental y como Analista de
+              Fitoplancton y coordinadora de proyectos en Programa de
+              Conservación de Humedales en la quinta región y colaboración en
+              Comité Ambiental de Puerto Varas.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div className="representante-container-img-title__img">
+              <img src={Jetzabel} alt="Foto Javiera" />
+            </div>
+            <div className="representante-container-img-title__txt">
+              <h3>JETZABEL MORENO</h3>
+              <h4>PRODUCCIÓN</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Periodista y Licenciada en Comunicación Social de la Universidad
+              de Playa Ancha. Especializada en prensa radial y periodismo
+              científico. Se desempeña en prensa y medios de comunicación
+              digitales de alcance nacional. Posee estudios en importancia del
+              paisaje sonoro y cuidado del medio ambiente.
+            </p>
+          </div>
+        </div>
+
+        <div className="representante-1">
+          <div className="representante-container-img-title">
+            <div className="representante-container-img-title__img">
+              <img src={Daniel} alt="Foto Daniel Rojas" />
+            </div>
+            <div className="representante-container-img-title__txt">
+              <h3>DANIEL ROJAS</h3>
+              <h4>DESARROLLADOR WEB</h4>
+            </div>
+          </div>
+          <div className="representante-container-desc">
+            <p>
+              Desarrollador de Software, Músico, Productor Musical y DJ. Combina
+              sus habilidades técnicas y creativas para crear experiencias
+              únicas y emocionantes. Artista creador multifacético, que combina
+              su pasión por la música con su habilidad para el desarrollo de
+              software, para crear experiencias innovadoras.
+            </p>
+          </div>
+        </div>
+
+        <hr />
+        <div className="numeros-container">
+          <h4>CONTACTOS</h4>
+          <div>
+            <p>Cristóbal Almagiá</p>
+            <p>+569 79872489 </p>
+          </div>
+          <div>
+            <p>Pilar Muñoz Muga</p>
+            <p>+569 94449452 </p>
+          </div>
+        </div>
       </section>
     </m.div>
   );
