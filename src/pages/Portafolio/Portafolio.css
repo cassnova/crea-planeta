@@ -56,6 +56,7 @@
 .portafolio-infos {
   margin: 20px 20px;
   font-size: 19px;
+  text-align: justify;
 }
 .luca-container {
   width: 100%;
@@ -190,8 +191,8 @@
     width: 100%;
     height: 100vh;
     /* position: relative; */
-    background: rgba(0, 0, 0, 0.5) url("../../portafolio-luca.webp");
-    background-color: #12a4fe54;
+    background: rgba(0, 0, 0, 0) url("../../portafolio-luca.webp");
+    /* background-color: #12a4fe54; */
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
