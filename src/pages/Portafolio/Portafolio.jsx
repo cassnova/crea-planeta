@@ -108,7 +108,7 @@ const Portafolio = () => {
         </div>
         <div>
           <p className="portafolio-infos">
-            <strong>Estado:</strong> En producción
+            <strong>Estado:</strong> Finalizado
           </p>
           <p className="portafolio-infos">
             <strong>Resumen:</strong> Acompañamos a Mery Perla, artista e
